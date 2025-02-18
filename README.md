@@ -1,4 +1,4 @@
-# [Next Al Quran App](#)
+# [Next Al Quran App](https://al-quran-nextbymms.vercel.app)
 
 This is an open-source [Next.js](https://nextjs.org) project for reading and listening to the Quran. It was created to contribute to the open-source community and to build my portfolio.
 
@@ -60,4 +60,4 @@ This project was created by [SabbirMMS](https://sabbbirmms.github.io/portfolio) 
 
 ## Live Demo
 
-You can view a live demo of the application [here](#).
+You can view a live demo of the application [here](https://al-quran-nextbymms.vercel.app/).

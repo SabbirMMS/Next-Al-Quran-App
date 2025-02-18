@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   title: projectName,
   description: projectDescription,
   icons: {
-    // icon: process.env.NEXT_PUBLIC_FAVICON_URL,
     icon: logo.src,
   },
 };

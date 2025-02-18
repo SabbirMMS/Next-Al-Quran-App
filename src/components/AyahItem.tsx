@@ -17,7 +17,13 @@ interface AyahItemProps {
   onEnded: () => void;
 }
 
-const AyahItem: React.FC<AyahItemProps> = ({ ayah, index, isActive, onPlay, onEnded }) => {
+const AyahItem = ({
+  ayah,
+  index,
+  isActive,
+  onPlay,
+  onEnded,
+}: AyahItemProps) => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const handlePlay = () => {

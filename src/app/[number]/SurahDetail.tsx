@@ -12,12 +12,12 @@ export interface Surah {
   ayahs: Ayah[];
 }
 
-interface SurahDetailProps {
+export interface SurahDetailProps {
   surah: Surah;
   lang: string;
 }
 
-const SurahDetail: React.FC<SurahDetailProps> = ({ surah }) => {
+const SurahDetail = ({ surah }: SurahDetailProps) => {
   const [currentAyahIndex, setCurrentAyahIndex] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const nextAudioRef = useRef<HTMLAudioElement>(null);
