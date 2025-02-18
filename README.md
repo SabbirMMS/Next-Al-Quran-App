@@ -1,8 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [Next Al Quran App](#)
+
+This is an open-source [Next.js](https://nextjs.org) project for reading and listening to the Quran. It was created to contribute to the open-source community and to build my portfolio.
+
+## Repository
+
+You can find the repository for this project on GitHub: [Next Al Quran App](https://github.com/SabbirMMS/Next-Al-Quran-App.git)
+
+## Features
+
+- **Surah Search**: Search for Surahs by name, number, or translation.
+- **Surah Details**: View detailed information about each Surah, including the number of Ayahs and revelation type.
+- **Ayah Playback**: Listen to the recitation of each Ayah with continuous playback.
+- **Dark Mode**: The entire application is styled for dark mode using Tailwind CSS.
+- **Responsive Design**: The application is fully responsive and works on all devices.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered and statically generated web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **API**: The application uses the [Al Quran Cloud API](https://api.alquran.cloud/) to fetch Quran data and audio.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
+
+```bash
+git clone https://github.com/SabbirMMS/Next-Al-Quran-App.git
+cd Next-Al-Quran-App
+```
+
+Install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +54,10 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About the Author
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was created by [SabbirMMS](https://sabbbirmms.github.io/portfolio) as part of an open-source initiative and to build a professional portfolio. Feel free to reach out for collaboration or feedback.
 
-## Learn More
+## Live Demo
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can view a live demo of the application [here](#).
